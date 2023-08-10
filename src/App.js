@@ -1,14 +1,14 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
-import CampSitesList from './features/campsites/CampSitesList';
+import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage';
 import './App.css';
 
 function App() {
     return (
         <div className='App'>
-          <Header />
-          <CampSitesList />
-          <Footer />
+            <Header />
+            <CampsitesDirectoryPage />
+            <Footer />
         </div>
     );
 }
