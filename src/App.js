@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import Header from './components/Header';
@@ -19,6 +20,7 @@ function App() {
                     path='directory/:campsiteId'
                     element={<CampsiteDetailPage />}
                 />
+                <Route path='about' element={<AboutPage />}/>
             </Routes>
             <Footer />
         </div>
