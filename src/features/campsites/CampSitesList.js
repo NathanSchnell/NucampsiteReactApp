@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { Col, Row, } from 'reactstrap';
+import { Col, Row } from 'reactstrap';
 import CampsiteCard from "./CampsiteCard";
 import { selectAllCampsites } from './campsitesSlice';
 import Error from '../../components/Error';
